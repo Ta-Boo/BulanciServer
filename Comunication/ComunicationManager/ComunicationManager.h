@@ -1,0 +1,14 @@
+//
+// Created by tobo on 12/30/19.
+//
+
+#ifndef BULANCISERVER_COMUNICATIONMANAGER_H
+#define BULANCISERVER_COMUNICATIONMANAGER_H
+
+
+class ComunicationManager {
+
+};
+
+
+#endif //BULANCISERVER_COMUNICATIONMANAGER_H
