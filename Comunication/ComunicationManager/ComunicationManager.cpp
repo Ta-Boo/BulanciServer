@@ -75,18 +75,16 @@ void ComunicationManager::activateSockets() {
 
 
 void ComunicationManager::listenForMessages(int client) {
-    char recieved[256]= "START";
-    while( strcmp(recieved, "EXIT\n") != 0 ) {
-//        pthread_mutex_lock(&mutex);
-//        while(processingMessage) {
-//            pthread_cond_wait(&messageProcessed,&mutex);
-//        }
-//        processingMessage = true;
-        bzero(recieved,256);
-        read(client, recieved, 255);
-//        pthread_mutex_unlock(&mutex);
-        printf("Here is the message: %s\n", recieved);
-        sendMessageToClients(recieved);
+    char received[256]= "START";
+    while( true ) {
+        bzero(received,256);
+        read(client, received, 255);
+        if (strcmp(received, "EXIT") == 0 ) {
+            strcpy(received, "FINISH");
+            sendMessageToClients(received);
+            break;
+        }
+        sendMessageToClients(received);
     }
 }
 

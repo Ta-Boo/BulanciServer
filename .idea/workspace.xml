@@ -14,6 +14,8 @@
     <list default="true" id="3a9f12d3-a6e7-4ab1-9b24-63f7ea11f56d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Comunication/ComunicationManager/ComunicationManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Comunication/ComunicationManager/ComunicationManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Comunication/ComunicationManager/ComunicationManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Comunication/ComunicationManager/ComunicationManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/BulanciServer" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/BulanciServer" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
       <workItem from="1577911411064" duration="11000" />
       <workItem from="1577956611028" duration="7771000" />
       <workItem from="1577970852267" duration="4252000" />
-      <workItem from="1577986591607" duration="599000" />
+      <workItem from="1577986591607" duration="6368000" />
     </task>
     <servers />
   </component>
@@ -98,10 +100,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577963902778">
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577994710644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577963902778" />
+    <state x="418" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577994710644" />
     <state x="707" y="325" width="495" height="383" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577964871262">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -110,38 +112,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="277" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577793617047" />
-    <state width="1878" height="249" key="GridCell.Tab.0.bottom" timestamp="1577974878862">
+    <state width="1878" height="340" key="GridCell.Tab.0.bottom" timestamp="1577994820789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577974878862" />
-    <state width="1878" height="249" key="GridCell.Tab.0.center" timestamp="1577974878862">
+    <state width="1878" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577994820789" />
+    <state width="1878" height="340" key="GridCell.Tab.0.center" timestamp="1577994820789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577974878862" />
-    <state width="1878" height="249" key="GridCell.Tab.0.left" timestamp="1577974878861">
+    <state width="1878" height="340" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577994820789" />
+    <state width="1878" height="340" key="GridCell.Tab.0.left" timestamp="1577994820788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577974878861" />
-    <state width="1878" height="249" key="GridCell.Tab.0.right" timestamp="1577974878862">
+    <state width="1878" height="340" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577994820788" />
+    <state width="1878" height="340" key="GridCell.Tab.0.right" timestamp="1577994820789">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577974878862" />
-    <state width="1878" height="340" key="GridCell.Tab.1.bottom" timestamp="1577972691790">
+    <state width="1878" height="340" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577994820789" />
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom" timestamp="1577994828415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577972691790" />
-    <state width="1878" height="340" key="GridCell.Tab.1.center" timestamp="1577972691789">
+    <state width="1878" height="340" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577994828415" />
+    <state width="1878" height="340" key="GridCell.Tab.1.center" timestamp="1577994828414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577972691789" />
-    <state width="1878" height="340" key="GridCell.Tab.1.left" timestamp="1577972691789">
+    <state width="1878" height="340" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577994828414" />
+    <state width="1878" height="340" key="GridCell.Tab.1.left" timestamp="1577994828414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577972691789" />
-    <state width="1878" height="340" key="GridCell.Tab.1.right" timestamp="1577972691790">
+    <state width="1878" height="340" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577994828414" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right" timestamp="1577994828415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1878" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577972691790" />
+    <state width="1878" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577994828415" />
     <state x="464" y="154" key="SettingsEditor" timestamp="1577793617917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -158,10 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="682" y="164" width="546" height="704" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577743647365" />
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1577793576389">
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1577990958725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577793576389" />
+    <state x="623" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577990958725" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -182,9 +184,9 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>14</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/Comunication/ComunicationManager/ComunicationManager.cpp</url>
+          <line>83</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -196,6 +198,7 @@
         <watch expression="threads[i]" language="ObjectiveC" />
         <watch expression="recieved" />
         <watch expression="clients[i+1]" />
+        <watch expression="received" />
       </configuration>
     </watches-manager>
   </component>

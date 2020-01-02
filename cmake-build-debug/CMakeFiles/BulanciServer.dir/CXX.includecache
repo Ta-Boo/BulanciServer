@@ -32,11 +32,3 @@ cstring
 unistd.h
 -
 
-/home/tobo/Desktop/Projects/BulanciServer/main.cpp
-sys/socket.h
--
-netinet/in.h
--
-Comunication/ComunicationManager/ComunicationManager.h
-/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
-
