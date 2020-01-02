@@ -5,12 +5,6 @@
 #include <iostream>
 #include "ComunicationManager.h"
 
-struct clientA {
-
-};
-
-
-
 ComunicationManager::ComunicationManager()  {
     pthread_mutex_init(&mutex, nullptr);
     pthread_cond_init(&messageProcessed, nullptr);
@@ -92,7 +86,6 @@ void ComunicationManager::listenForMessages(int client) {
         read(client, recieved, 255);
 //        pthread_mutex_unlock(&mutex);
         printf("Here is the message: %s\n", recieved);
-
         sendMessageToClients(recieved);
     }
 }
