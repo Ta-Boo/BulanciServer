@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.cpp
+iostream
+-
+ComunicationManager.h
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
+
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
+../Socket/Socket.h
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.h
+thread
+-
+
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.h
+sys/socket.h
+-
+netinet/in.h
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+unistd.h
+-
+
+/home/tobo/Desktop/Projects/BulanciServer/main.cpp
+sys/socket.h
+-
+netinet/in.h
+-
+Comunication/ComunicationManager/ComunicationManager.h
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
+

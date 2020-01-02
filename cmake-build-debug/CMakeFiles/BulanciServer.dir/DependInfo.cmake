@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/hladek/Desktop/BulanciServer/main.cpp" "/Users/hladek/Desktop/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/main.cpp.o"
+  "/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o"
+  "/home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o"
+  "/home/tobo/Desktop/Projects/BulanciServer/main.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

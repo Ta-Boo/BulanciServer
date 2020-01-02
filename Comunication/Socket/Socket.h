@@ -14,10 +14,7 @@
 
 
 class Socket {
-
-    int players = 2;
-
-    int sockfd, newsockfd;
+    int sockfd, newsockfd, secondsockfd;
     socklen_t cli_len;
     struct sockaddr_in serv_addr, cli_addr;
     int n;

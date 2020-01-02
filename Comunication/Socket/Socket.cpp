@@ -36,12 +36,14 @@ int Socket::openSocket(int port, int argc) {
     listen(sockfd, 5);
     cli_len = sizeof(cli_addr);
 
-    newsockfd = accept(sockfd, (struct sockaddr*)&cli_addr, &cli_len);
+    newsockfd       = accept(sockfd, (struct sockaddr*)&cli_addr, &cli_len);
+    secondsockfd    = accept(sockfd, (struct sockaddr*)&cli_addr, &cli_len);
     if (newsockfd < 0)
     {
         perror("ERROR on accept");
         return 3;
     }
+
     printf("Socket successfully opened ");
     return 0;
 }
@@ -56,6 +58,7 @@ char *Socket::sendMessage() {
         const char* msg = "I got your message";
         if (strcmp(recieved, "EXIT\n") == 0 ) { msg = "EXITS";}
         write(newsockfd, msg, strlen(msg)+1);
+        write(secondsockfd, msg, strlen(msg)+1);
     }
     return nullptr;
 }
@@ -66,5 +69,6 @@ char *Socket::messageRecieved() {
 
 Socket::~Socket() {
     close(newsockfd);
+    //todo zatvaranie vsetkych
     close(sockfd);
 }
