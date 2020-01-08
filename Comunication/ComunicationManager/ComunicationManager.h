@@ -36,8 +36,8 @@ public:
     void activateSockets();
     void listenForMessages(int client);
     PlayerData constructPlayer(string message);
-    void sendMessageToClients(char* message);
-    void update(string message);
+    void sendMessageToClients(char* message , int clientId);
+    bool update(string message);
     ~ComunicationManager();
 
 

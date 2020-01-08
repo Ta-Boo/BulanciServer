@@ -29,7 +29,7 @@ string PlayerData::toString() {
     final += "|";
     final += to_string(hp);
     final += "|";
-    final += to_string(facing);
+    final += getFacingString();
     final += "|";
     final += to_string(pX);
     final += "|";
@@ -48,3 +48,17 @@ string PlayerData::toString() {
 PlayerData::PlayerData(int id, int hp, int pX, int pY, Facing facing, Facing bulletFacing, int bulletX, int bulletY, int exit)
         : id(id), hp(hp), pX(pX), pY(pY), facing(facing), bulletFacing(bulletFacing), bulletX(bulletX),
           bulletY(bulletY), exit(exit) {}
+
+string PlayerData::getFacingString() {
+    switch (facing) {
+        case TOP :
+            return "0";
+        case RIGHT :
+            return "1";
+        case BOT :
+            return "2";
+        case LEFT :
+            return "3";
+
+    }
+}

@@ -3,17 +3,17 @@
 
 CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o: ../Comunication/ComunicationManager/ComunicationManager.cpp
 CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o: ../Comunication/ComunicationManager/ComunicationManager.h
-CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o: ../Comunication/Data/Player.h
+CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o: ../Comunication/Data/PlayerData.h
 CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o: ../Comunication/Socket/Socket.h
 
-CMakeFiles/BulanciServer.dir/Comunication/Data/Player.cpp.o: ../Comunication/Data/Player.cpp
-CMakeFiles/BulanciServer.dir/Comunication/Data/Player.cpp.o: ../Comunication/Data/Player.h
+CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.o: ../Comunication/Data/PlayerData.cpp
+CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.o: ../Comunication/Data/PlayerData.h
 
 CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o: ../Comunication/Socket/Socket.cpp
 CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o: ../Comunication/Socket/Socket.h
 
 CMakeFiles/BulanciServer.dir/main.cpp.o: ../Comunication/ComunicationManager/ComunicationManager.h
-CMakeFiles/BulanciServer.dir/main.cpp.o: ../Comunication/Data/Player.h
+CMakeFiles/BulanciServer.dir/main.cpp.o: ../Comunication/Data/PlayerData.h
 CMakeFiles/BulanciServer.dir/main.cpp.o: ../Comunication/Socket/Socket.h
 CMakeFiles/BulanciServer.dir/main.cpp.o: ../main.cpp
 

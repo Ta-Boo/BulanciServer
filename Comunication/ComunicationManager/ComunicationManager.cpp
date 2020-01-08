@@ -80,17 +80,21 @@ void ComunicationManager::listenForMessages(int client) {
     while( true ) {
         bzero(received,256);
         read(client, received, 255);
-        if (strcmp(received, "EXIT") == 0 ) {
-            strcpy(received, "FINISH");
-            sendMessageToClients(received);
+        cout << "i recieved " << received <<endl;
+        if (update(received)) {
+            sendMessageToClients(received, 99999);
             break;
         }
-        update(received);
-        sendMessageToClients(received);
+        sendMessageToClients(received, client);
     }
+    sleep(3);
+    cout << "my job is done " << endl;
 }
-void ComunicationManager::update(string message) {
+bool ComunicationManager::update(string message) {
     PlayerData player = constructPlayer(message);
+    if(player.exit) {
+        return true;
+    }
     pthread_mutex_lock(&mutex);
     while(processingMessage) {
         pthread_cond_wait(&messageProcessed,&mutex);
@@ -100,17 +104,17 @@ void ComunicationManager::update(string message) {
     pthread_mutex_unlock(&mutex);
     processingMessage = false;
     pthread_cond_signal(&messageProcessed);
+    return false;
 
 }
 
-void ComunicationManager::sendMessageToClients(char* message) {
-    cout << "posielam : " << message <<endl;
-
+void ComunicationManager::sendMessageToClients(char* message, int clientId) {
     for (int i = 1; i <= PLAYERS_COUNT; ++i) {
-        write(clients[i], message, strlen(message)+1);
+        PlayerData actualPlayer = constructPlayer(message);actualPlayer.id = clientId;
+        if(clients[i] != actualPlayer.id) {
+            write(clients[i], actualPlayer.toString().c_str(), strlen(actualPlayer.toString().c_str())+1);
+        }
     }
-//    processingMessage = false;
-    pthread_cond_signal(&messageProcessed);
 }
 
 PlayerData ComunicationManager::constructPlayer(string message) {
@@ -122,42 +126,34 @@ PlayerData ComunicationManager::constructPlayer(string message) {
     player.bulletX = stoi(playerStats[playerStats.size()-1]);playerStats.pop_back();
     Facing facing;
     switch(stoi(playerStats[playerStats.size()-1])) {
-            case 1:
+            case 0:
                 facing = TOP;
                 break;
-            case 2:
+            case 1:
                 facing = RIGHT;
                 break;
-            case 3:
+            case 2:
                 facing = BOT;
                 break;
-            case 4:
+            case 3:
                 facing = LEFT;
-                break;
-
-            default:
-                facing = TOP;
                 break;
         }
     player.bulletFacing = facing;playerStats.pop_back();
     player.pY = stoi(playerStats[playerStats.size()-1]);playerStats.pop_back();
     player.pX = stoi(playerStats[playerStats.size()-1]);playerStats.pop_back();
     switch(stoi(playerStats[playerStats.size()-1])) {
-        case 1:
+        case 0:
             facing = TOP;
             break;
-        case 2:
+        case 1:
             facing = RIGHT;
             break;
-        case 3:
+        case 2:
             facing = BOT;
             break;
-        case 4:
+        case 3:
             facing = LEFT;
-            break;
-
-        default:
-            facing = TOP;
             break;
     }
     player.facing = facing;playerStats.pop_back();
