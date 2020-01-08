@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -pthread -g   CMakeFiles/BulanciServer.dir/main.cpp.o CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o  -o BulanciServer 
+/usr/bin/c++  -std=c++11 -pthread -g   CMakeFiles/BulanciServer.dir/main.cpp.o CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.o  -o BulanciServer 

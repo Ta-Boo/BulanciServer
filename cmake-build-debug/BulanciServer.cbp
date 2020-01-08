@@ -90,6 +90,12 @@
 		<Unit filename="/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h">
 			<Option target="BulanciServer"/>
 		</Unit>
+		<Unit filename="/home/tobo/Desktop/Projects/BulanciServer/Comunication/Data/PlayerData.cpp">
+			<Option target="BulanciServer"/>
+		</Unit>
+		<Unit filename="/home/tobo/Desktop/Projects/BulanciServer/Comunication/Data/PlayerData.h">
+			<Option target="BulanciServer"/>
+		</Unit>
 		<Unit filename="/home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.cpp">
 			<Option target="BulanciServer"/>
 		</Unit>

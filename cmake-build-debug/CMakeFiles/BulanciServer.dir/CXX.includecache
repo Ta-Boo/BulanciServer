@@ -6,16 +6,20 @@
 
 #IncludeRegexTransform: 
 
-/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.cpp
-iostream
--
-ComunicationManager.h
-/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
-
 /home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
 ../Socket/Socket.h
 /home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.h
+../Data/Player.h
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/Data/Player.h
 thread
+-
+map
+-
+boost/algorithm/string.hpp
+-
+
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/Data/Player.h
+string
 -
 
 /home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.h
@@ -31,4 +35,14 @@ cstring
 -
 unistd.h
 -
+
+/home/tobo/Desktop/Projects/BulanciServer/main.cpp
+sys/socket.h
+-
+netinet/in.h
+-
+iostream
+-
+Comunication/ComunicationManager/ComunicationManager.h
+/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.h
 

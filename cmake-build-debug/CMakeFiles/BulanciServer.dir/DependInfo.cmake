@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/tobo/Desktop/Projects/BulanciServer/Comunication/ComunicationManager/ComunicationManager.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.o"
+  "/home/tobo/Desktop/Projects/BulanciServer/Comunication/Data/PlayerData.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.o"
   "/home/tobo/Desktop/Projects/BulanciServer/Comunication/Socket/Socket.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/Comunication/Socket/Socket.cpp.o"
   "/home/tobo/Desktop/Projects/BulanciServer/main.cpp" "/home/tobo/Desktop/Projects/BulanciServer/cmake-build-debug/CMakeFiles/BulanciServer.dir/main.cpp.o"
   )

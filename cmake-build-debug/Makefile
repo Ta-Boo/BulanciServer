@@ -150,6 +150,33 @@ Comunication/ComunicationManager/ComunicationManager.cpp.s:
 	$(MAKE) -f CMakeFiles/BulanciServer.dir/build.make CMakeFiles/BulanciServer.dir/Comunication/ComunicationManager/ComunicationManager.cpp.s
 .PHONY : Comunication/ComunicationManager/ComunicationManager.cpp.s
 
+Comunication/Data/PlayerData.o: Comunication/Data/PlayerData.cpp.o
+
+.PHONY : Comunication/Data/PlayerData.o
+
+# target to build an object file
+Comunication/Data/PlayerData.cpp.o:
+	$(MAKE) -f CMakeFiles/BulanciServer.dir/build.make CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.o
+.PHONY : Comunication/Data/PlayerData.cpp.o
+
+Comunication/Data/PlayerData.i: Comunication/Data/PlayerData.cpp.i
+
+.PHONY : Comunication/Data/PlayerData.i
+
+# target to preprocess a source file
+Comunication/Data/PlayerData.cpp.i:
+	$(MAKE) -f CMakeFiles/BulanciServer.dir/build.make CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.i
+.PHONY : Comunication/Data/PlayerData.cpp.i
+
+Comunication/Data/PlayerData.s: Comunication/Data/PlayerData.cpp.s
+
+.PHONY : Comunication/Data/PlayerData.s
+
+# target to generate assembly for a file
+Comunication/Data/PlayerData.cpp.s:
+	$(MAKE) -f CMakeFiles/BulanciServer.dir/build.make CMakeFiles/BulanciServer.dir/Comunication/Data/PlayerData.cpp.s
+.PHONY : Comunication/Data/PlayerData.cpp.s
+
 Comunication/Socket/Socket.o: Comunication/Socket/Socket.cpp.o
 
 .PHONY : Comunication/Socket/Socket.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Comunication/ComunicationManager/ComunicationManager.o"
 	@echo "... Comunication/ComunicationManager/ComunicationManager.i"
 	@echo "... Comunication/ComunicationManager/ComunicationManager.s"
+	@echo "... Comunication/Data/PlayerData.o"
+	@echo "... Comunication/Data/PlayerData.i"
+	@echo "... Comunication/Data/PlayerData.s"
 	@echo "... Comunication/Socket/Socket.o"
 	@echo "... Comunication/Socket/Socket.i"
 	@echo "... Comunication/Socket/Socket.s"
